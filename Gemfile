@@ -7,6 +7,7 @@ gem 'rails', '4.0.1'
 gem 'sass-rails', '~> 4.0.0'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
+gem 'web-console', git: "git@github.com:amorphid/web-console.git", branch: "enable-web-console-in-production"
 
 group :development, :test do
   gem 'sqlite3'
