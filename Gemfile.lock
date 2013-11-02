@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:amorphid/web-console.git
+  remote: git://github.com/amorphid/web-console.git
   revision: 05a533189c89fb3aa217cc45bf32ca1b24115721
   branch: enable-web-console-in-production
   specs:
