@@ -8,9 +8,6 @@ Bundler.require(:default, Rails.env)
 
 module NinefoldWebConsole
   class Application < Rails::Application
-    # # config.web_console.whitelisted_ips = [
-    #                                         "127.0.0.1",
-    #                                         ENV["WHITELIST_IP"]
-    #                                      ]
+    config.web_console.whitelisted_ips = ENV["WHITELIST_IP"]
   end
 end
