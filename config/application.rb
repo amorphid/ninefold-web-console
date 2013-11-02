@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-ENV["WHITELIST_IP"] = "127.0.0.1"
+# ENV["WHITELIST_IP"] = "127.0.0.1"
 
 module NinefoldWebConsole
   class Application < Rails::Application
